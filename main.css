@@ -8,3 +8,9 @@ body {
   max-width: 350px;
   margin: 0 auto;
 }
+
+@media(max-width: 500px) {
+  .container {
+    max-height: 300px;
+  }
+}
